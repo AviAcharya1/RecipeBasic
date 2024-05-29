@@ -1,0 +1,92 @@
+/* styles/styles.css */
+/* Reset and global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #077894;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+header nav ul li {
+    padding: 10px;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main content area styles */
+  main {
+    padding: 20px;
+  }
+  
+  .recipe-list,
+  .recipe-details,
+  .auth-forms,
+  .add-recipe-form {
+    margin-bottom: 20px;
+  }
+  
+  .auth-forms {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signup-form,
+  .login-form {
+    width: 48%;
+  }
+  
+  .signup-form form,
+  .login-form form,
+  .add-recipe-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form label,
+  .login-form label,
+  .add-recipe-form label {
+    margin-bottom: 5px;
+  }
+  
+  .signup-form input,
+  .login-form input,
+  .add-recipe-form input,
+  .add-recipe-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .signup-form button,
+  .login-form button,
+  .add-recipe-form button {
+    padding: 10px;
+    background-color: #2278b5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #062452;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
